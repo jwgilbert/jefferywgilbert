@@ -14,14 +14,15 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid black;
 }
+
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   padding-bottom: 19px;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 40px; 
 }
 
 /* Custom page footer */
@@ -46,6 +47,10 @@ body {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
+.jumbotron h1 {
+  color: black;
+  opacity: 1.0;
+}
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
@@ -55,6 +60,7 @@ body {
 .marketing {
   margin: 40px 0;
 }
+
 .marketing p + h4 {
   margin-top: 28px;
 }
