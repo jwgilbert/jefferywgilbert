@@ -21,12 +21,16 @@ background: url(../img/LilyLake.png) no-repeat center center fixed;
 
 .marketing {
 	  /* color: #D6EBFF; */
-  color: white;
+  color: #1F3D99;
 }
 
 .marketing a {
   text-decoration: none;
   color: white;
+}
+
+.marketing p {
+	font-size: 14px;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
