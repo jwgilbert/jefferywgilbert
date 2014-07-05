@@ -1,9 +1,9 @@
 body {
-background: url(../img/LilyLake.png) no-repeat center center fixed;
+	background-size: 100%;
 }
 
 .footer p {
-	color: white;
+	color: black;
 }
 
 .header h3 {
@@ -53,25 +53,19 @@ background: url(../img/LilyLake.png) no-repeat center center fixed;
     animation-duration:1s;
 }
  
-.fade-in {
+.fade-in.fone {
 -webkit-animation-delay: 0.7s;
 -moz-animation-delay: 0.7s;
 animation-delay: 0.7s;
 }
 
-.fade-in.one {
--webkit-animation-delay: 0.7s;
--moz-animation-delay: 0.7s;
-animation-delay: 0.7s;
+.fade-in.ftwo {
+-webkit-animation-delay: 1.1s;
+-moz-animation-delay: 1.1s;
+animation-delay: 1.1s;
 }
- 
-.fade-in.two {
--webkit-animation-delay: 1.2s;
--moz-animation-delay:1.2s;
-animation-delay: 1.2s;
-}
- 
-.fade-in.three {
+
+.fade-in.fthree {
 -webkit-animation-delay: 1.6s;
 -moz-animation-delay: 1.6s;
 animation-delay: 1.6s;
